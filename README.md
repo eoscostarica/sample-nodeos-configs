@@ -27,5 +27,4 @@ Example configuration for different EOSIO node types
 - Patch EOSIO
 
 
-
 ## Block Log Utility Lab
