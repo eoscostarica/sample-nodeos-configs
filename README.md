@@ -29,18 +29,17 @@ Within the repo you'll find the following files and directories:
 
 # Node Operator Labs 
 
-## [Producer Node Lab](https://github.com/eoscostarica/sample-nodeos-configs/blob/main/producer-node-lab.md)
-**Assignment:**  Configure a local block producer node
+## [Producer Node Lab Assignment](https://github.com/eoscostarica/sample-nodeos-configs/blob/main/producer-node-lab.md)
+Configure a local block producer node
 
-## [Query Node Lab](https://github.com/eoscostarica/sample-nodeos-configs/blob/main/query-node-lab.md)
-**Assignment:**  Configure an API node on a public testnet
+## [Query Node Lab Assignment](https://github.com/eoscostarica/sample-nodeos-configs/blob/main/query-node-lab.md)
+Configure an API node on a public testnet
 
-## [Recovery Lab](https://github.com/eoscostarica/sample-nodeos-configs/blob/main/recovery-lab.md)
-**Assignment:**  Chain Replays and Backup Recovery 
+## [Recovery Lab Assignment](https://github.com/eoscostarica/sample-nodeos-configs/blob/main/recovery-lab.md)
+Chain Replays and Backup Recovery 
 
 # Blockchain Admin Labs
 
 ## [EOSIO Network Boot Sequence](https://guide.eoscostarica.io/docs/tutorials/private-network-installation)
 
-- [EOSIO network bootstrap](https://github.com/eoscostarica/eosio-network-bootstrap)
-
+Follow the steps to Launch your own EOSIO network using the [EOSIO network bootstrap](https://github.com/eoscostarica/eosio-network-bootstrap) tool.
