@@ -1,14 +1,19 @@
 # sample-nodeos-configs
 Example configuration for different EOSIO node types
 
+## Node Operator Labs 
 
-## Producer Node Lab
-- Configure the API node 
+### [Producer Node Lab](https://github.com/eoscostarica/sample-nodeos-configs/blob/main/producer-node-lab.md)
+- Configure a local block producer 
 
-## Query Node Lab 
-- Configure the API node 
+### [Query Node Lab](https://github.com/eoscostarica/sample-nodeos-configs/blob/main/query-node-lab.md)
+- Configure an API node on a public testnet
 
-## Recovery Lab
+### [Recovery Lab](https://github.com/eoscostarica/sample-nodeos-configs/blob/main/recovery-lab.md)
+- Chain Replays
+- Recover from backup 
+- Recover from snapshot
 
-
-
+## Blockchain Admin Lab 
+- [EOSIO network bootstrap](https://github.com/eoscostarica/eosio-network-bootstrap)
+- [Private Network Installation](https://guide.eoscostarica.io/docs/tutorials/private-network-installation)
