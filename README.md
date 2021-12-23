@@ -16,7 +16,7 @@ Example configuration for different EOSIO node types
 
 # Blockchain Admin Labs
 
-## EOSIO Network Boot Sequence
-- [Private Network Installation](https://guide.eoscostarica.io/docs/tutorials/private-network-installation)
+## [EOSIO Network Boot Sequence](https://guide.eoscostarica.io/docs/tutorials/private-network-installation)
+
 - [EOSIO network bootstrap](https://github.com/eoscostarica/eosio-network-bootstrap)
 
