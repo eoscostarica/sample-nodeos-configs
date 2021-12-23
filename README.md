@@ -1,19 +1,22 @@
-# sample-nodeos-configs
+# Sample Nodeos Configurations
 Example configuration for different EOSIO node types
 
-## Node Operator Labs 
+# Node Operator Labs 
 
-### [Producer Node Lab](https://github.com/eoscostarica/sample-nodeos-configs/blob/main/producer-node-lab.md)
+## [Producer Node Lab](https://github.com/eoscostarica/sample-nodeos-configs/blob/main/producer-node-lab.md)
 **Assignment:**  Configure a local block producer node
 
-### [Query Node Lab](https://github.com/eoscostarica/sample-nodeos-configs/blob/main/query-node-lab.md)
+## [Query Node Lab](https://github.com/eoscostarica/sample-nodeos-configs/blob/main/query-node-lab.md)
 **Assignment:**  Configure an API node on a public testnet
 
-### [Recovery Lab](https://github.com/eoscostarica/sample-nodeos-configs/blob/main/recovery-lab.md)
+## [Recovery Lab](https://github.com/eoscostarica/sample-nodeos-configs/blob/main/recovery-lab.md)
 **Assignment:**  Chain Replays
 - Recover from backup 
 - Recover from snapshot
 
-## Blockchain Admin Lab 
-- [EOSIO network bootstrap](https://github.com/eoscostarica/eosio-network-bootstrap)
+# Blockchain Admin Labs
+
+## EOSIO Network Boot Sequence
 - [Private Network Installation](https://guide.eoscostarica.io/docs/tutorials/private-network-installation)
+- [EOSIO network bootstrap](https://github.com/eoscostarica/eosio-network-bootstrap)
+
