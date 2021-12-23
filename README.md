@@ -10,9 +10,7 @@ Example configuration for different EOSIO node types
 **Assignment:**  Configure an API node on a public testnet
 
 ## [Recovery Lab](https://github.com/eoscostarica/sample-nodeos-configs/blob/main/recovery-lab.md)
-**Assignment:**  Chain Replays
-- Recover from backup 
-- Recover from snapshot
+**Assignment:**  Chain Replays and Backup Recovery 
 
 # Blockchain Admin Labs
 
