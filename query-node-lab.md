@@ -1,0 +1,1 @@
+[Jungle Testnet](https://github.com/EOS-Jungle-Testnet/Node-Manual-Installation#3-install-jungle30-testnet-node-manual)
