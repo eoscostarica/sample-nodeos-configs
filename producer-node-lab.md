@@ -9,9 +9,9 @@ This section describes how to set up a single-node blockchain configuration runn
 
 ## Before you begin
 
-* [Install the EOSIO software](../../../00_install/index.md) before starting this section.
-* It is assumed that `nodeos`, `cleos`, and `keosd` are accessible through the path. If you built EOSIO using shell scripts, make sure to run the [Install Script](../../../00_install/01_build-from-source/01_shell-scripts/03_install-eosio-binaries.md).
-* Know how to pass [Nodeos options](../../02_usage/00_nodeos-options.md) to enable or disable functionality.
+* [Install the EOSIO software](https://developers.eos.io/manuals/eos/latest/install/index) before starting this section.
+* It is assumed that `nodeos`, `cleos`, and `keosd` are accessible through the path. If you built EOSIO using shell scripts, make sure to run the [Install Script](https://developers.eos.io/manuals/eos/latest/install/build-from-source/shell-scripts/install-eosio-binaries).
+* Know how to pass [Nodeos options](https://developers.eos.io/manuals/eos/latest/nodeos/usage/nodeos-options) to enable or disable functionality.
 
 ## Steps
 
@@ -71,5 +71,5 @@ nodeos
 A data folder can be specified using the `--data-dir` command line argument to `nodeos`.
 
 [[info | What's next?]]
-| You can explore how to setup and run a [single-host, single-node testnet with consensus](10_local-single-node-testnet-consensus.md) or
-| You can explore how to setup and run a [single-host, multi-node testnet](20_local-multi-node-testnet.md).
+| You can explore how to setup and run a [single-host, single-node testnet with consensus](https://developers.eos.io/manuals/eos/latest/nodeos/usage/development-environment/local-single-node-testnet-consensus) or
+| You can explore how to setup and run a [single-host, multi-node testnet](https://developers.eos.io/manuals/eos/latest/nodeos/usage/development-environment/local-multi-node-testnet).
