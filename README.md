@@ -49,6 +49,6 @@ Chain Replays and Backup Recovery
 
 # Blockchain Admin Labs
 
-## [EOSIO Network Boot Sequence](https://guide.eoscostarica.io/docs/tutorials/private-network-installation)
+## [EOSIO Network Boot Sequence](https://github.com/eoscostarica/sample-nodeos-configs/blob/main/network-boot-lab.md)
 
 Follow the steps to Launch your own EOSIO network using the [EOSIO network bootstrap](https://github.com/eoscostarica/eosio-network-bootstrap) tool.
