@@ -5,8 +5,8 @@
 Complete the instructions described in this lab.
 
 The student must send:
-1. A `zip file` containing the folder created with the data generated just removing the `data` folder.
-1. A screenshot of the terminal with nodeos running after the lab is complete.
+1. A `zip file` containing the final folder after completing this tutorial and just removing the `data` folder.
+1. A screenshot of the terminal with nodeos running after the lab is completed.
 
 ### Help material
 
