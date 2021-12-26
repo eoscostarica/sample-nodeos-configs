@@ -1,8 +1,22 @@
 # Run a Local Producer Node
 
+## Workshop instructions
+
+Complete the step two by finding the missing plugin to configure nodeos using the config.ini file and also the console inline configuration.
+
+The student must send:
+1. The config.ini file used to run nodeos.
+2. The command used to run nodeos from terminal with the needed plugins (`.txt` file extention).
+
+### Help material
+
+To successful complete this workshop the student can use next the help links:
+- [Producer `config.ini` file](https://github.com/eoscostarica/sample-nodeos-configs/tree/docs/update/blockproducer/config)
+- [Set specific nodeos options](https://developers.eos.io/manuals/eos/latest/nodeos/usage/nodeos-options)
+
 ## Goal
 
-This section describes how to set up a single-node blockchain configuration running on a single host. This is referred to as a _**single host, single-node testnet**_. We will set up one node on your local computer to have it producing blocks. The following diagram depicts the desired single host testnet.
+This laboratory describes how to set up a single-node blockchain configuration running on a single host. This is referred to as a _**single host, single-node testnet**_. We will set up one node on your local computer to have it producing blocks. The following diagram depicts the desired single host testnet.
 
 ![Single host single node testnet](https://developers.eos.io/315123127612b3c9153341b9e7401d02/single-host-single-node-testnet.png)
 
@@ -81,20 +95,6 @@ The output information is as follow:
 "last_irreversible_block_time": "2021-12-24T03:43:22.500"
 }
 ```
-
-### Workshop instructions
-
-Complete the step two by finding the missing plugin to configure nodeos using the config.ini file and also the console inline configuration.
-
-The student must send:
-1. The config.ini file used to run nodeos.
-2. The command used to run nodeos from terminal with the needed plugins (`.txt` file extention).
-
-### Help material
-
-To successful complete this workshop the student can use the help link:
-- [Producer `config.ini` file](https://github.com/eoscostarica/sample-nodeos-configs/tree/docs/update/blockproducer/config)
-- [Set specific nodeos options](https://developers.eos.io/manuals/eos/latest/nodeos/usage/nodeos-options)
 
 ## What's next?
 To learn more about nodeos setup, you can explore:
