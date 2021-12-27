@@ -72,7 +72,7 @@ A data folder can be specified using the `--data-dir` command line argument to `
 
 ### 2. Get Node Info
 
-To check if the node is running there is two main approaches, the first option is to get the information from terminal and the second option is to query `http://127.0.0.1:8888/v1/chain/get_info` from the browser, both of them require the action of a specific plugin.
+To check if the node is running there is two main approaches, the first option is to get the information from terminal with `cleos get info` and the second option is to query `http://127.0.0.1:8888/v1/chain/get_info` from the browser, both of them require the action of a specific plugin.
 
 The output information is as follow:
 
