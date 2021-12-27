@@ -24,7 +24,7 @@ At the time of configuring a private EOSIO network there are some software insta
 1. cmake
 1. build-essential
 
-*Also, we are using Ubuntu 18.04 LTS, but if you want to use macOS or other supported OS, take a look at [EOSIO releases](https://github.com/EOSIO/eos/releases)*
+> Also, we are using Ubuntu 18.04 LTS, but if you want to use macOS or other supported OS, take a look at [EOSIO releases](https://github.com/EOSIO/eos/releases) but we recommend using Ubuntu for this workshop. If you don't have Ubuntu, Docker can help to virtualize the OS, take a look at [eos-local](https://github.com/eoscostarica/eos-local/blob/master/Dockerfile) to know how to do it.
 
 ### EOSIO Precompiled Binaries Installation
 Execute the following commands to install EOSIO precompiled binaries:
