@@ -2,7 +2,7 @@
 
 ## Workshop instructions
 
-Complete the step two by finding the missing plugin to configure nodeos using the config.ini file and also the console inline configuration.
+Complete [step two](https://github.com/eoscostarica/sample-nodeos-configs/blob/main/producer-node-lab.md#2-get-node-info) by finding the missing plugin to configure nodeos using the config.ini file and also the console inline configuration.
 
 The student must send:
 1. The config.ini file used to run nodeos.
@@ -10,7 +10,7 @@ The student must send:
 
 ### Help material
 
-To successful complete this workshop the student can use next the help links:
+To successfully complete this workshop the student can use next the help links:
 - [Producer `config.ini` file](https://github.com/eoscostarica/sample-nodeos-configs/tree/docs/update/blockproducer/config)
 - [Set specific nodeos options](https://developers.eos.io/manuals/eos/latest/nodeos/usage/nodeos-options)
 
@@ -30,10 +30,12 @@ This laboratory describes how to set up a single-node blockchain configuration r
 
 Start your own single-node blockchain:
 
-- Create a `config.ini` file 
-- Configure the producer node 
+- Create a `config.ini` file.
+- Configure the producer node.
 
 The more advanced user will likely have need to modify the configuration. `nodeos` uses a custom configuration folder that the location is determined by your system.
+
+> You can override this is you set a config dir using the `--config-dir` flag followed by the folder dir.
 
 * Mac OS: `~/Library/Application\ Support/eosio/nodeos/config`
 * Linux: `~/.local/share/eosio/nodeos/config`
@@ -70,7 +72,7 @@ A data folder can be specified using the `--data-dir` command line argument to `
 
 ### 2. Get Node Info
 
-To check if the node is running there is two main approaches, the first option is the get the information from terminal and the second option is to query `http://127.0.0.1:8888/v1/chain/get_info` from the browser, both of them require the action of a specific plugin.
+To check if the node is running there is two main approaches, the first option is to get the information from terminal with `cleos get info` and the second option is to query `http://127.0.0.1:8888/v1/chain/get_info` from the browser, both of them require the action of a specific plugin.
 
 The output information is as follow:
 
@@ -98,5 +100,5 @@ The output information is as follow:
 
 ## What's next?
 To learn more about nodeos setup, you can explore:
-- How to setup and run a [single-host, single-node testnet with consensus](https://developers.eos.io/manuals/eos/latest/nodeos/usage/development-environment/local-single-node-testnet-consensus)
+- How to setup and run a [single-host, single-node testnet with consensus](https://developers.eos.io/manuals/eos/latest/nodeos/usage/development-environment/local-single-node-testnet-consensus).
 - How to setup and run a [single-host, multi-node testnet](https://developers.eos.io/manuals/eos/latest/nodeos/usage/development-environment/local-multi-node-testnet).
