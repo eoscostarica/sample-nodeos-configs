@@ -4,19 +4,19 @@
 
 Complete [step two](https://github.com/eoscostarica/sample-nodeos-configs/blob/main/producer-node-lab.md#2-get-node-info) by finding the missing plugin to configure nodeos using the config.ini file and also the console inline configuration.
 
-The student must send:
+The student must send ---> (where, to whom?):
 1. The config.ini file used to run nodeos.
-2. The command used to run nodeos from terminal with the needed plugins (`.txt` file extention).
+2. The command used to run nodeos from the terminal with the needed plugins (`.txt` file extension).
 
 ### Help material
 
-To successfully complete this workshop the student can use next the help links:
+To successfully complete this workshop the student can use the next support material:
 - [Producer `config.ini` file](https://github.com/eoscostarica/sample-nodeos-configs/tree/docs/update/blockproducer/config)
 - [Set specific nodeos options](https://developers.eos.io/manuals/eos/latest/nodeos/usage/nodeos-options)
 
 ## Goal
 
-This laboratory describes how to set up a single-node blockchain configuration running on a single host. This is referred to as a _**single host, single-node testnet**_. We will set up one node on your local computer to have it producing blocks. The following diagram depicts the desired single host testnet.
+This laboratory aims to set up a single-node blockchain configuration running on a single host. This is referred to as a _**single host, single-node testnet**_. We will set up one node on your local computer to have it producing blocks. The following diagram depicts the desired single host testnet.
 
 ![Single host single node testnet](https://developers.eos.io/315123127612b3c9153341b9e7401d02/single-host-single-node-testnet.png)
 
@@ -33,15 +33,16 @@ Start your own single-node blockchain:
 - Create a `config.ini` file.
 - Configure the producer node.
 
-The more advanced user will likely have need to modify the configuration. `nodeos` uses a custom configuration folder that the location is determined by your system.
+The more advanced user will likely need to modify the configuration. `nodeos` uses a custom configuration folder where the location is determined by your system.
 
-> You can override this is you set a config dir using the `--config-dir` flag followed by the folder dir.
+> You can override this if you set a config dir using the `--config-dir` flag followed by the folder dir.
 
+The default path for the nodeos configuration files are:
 * Mac OS: `~/Library/Application\ Support/eosio/nodeos/config`
 * Linux: `~/.local/share/eosio/nodeos/config`
 
 The build seeds this folder with a default `config.ini` file. A configuration folder can be specified using the `--config-dir` command line argument to `nodeos`. If you use this option, you will need to manually copy a `config.ini` file to your custom config folder path.
- 
+
 `nodeos` will need a properly configured `config.ini` file in order to do meaningful work. On startup, `nodeos` looks in the config folder for `config.ini`. If one is not found, a default `config.ini` file is created.
 
 If you do not already have a `config.ini` file ready to use, run `nodeos` and then close it immediately with <kbd>Ctrl-C</kbd>. A default configuration (`config.ini`) will have been created in the config folder. Edit the `config.ini` file, adding/updating the following settings to the defaults already in place:
@@ -101,4 +102,4 @@ The output information is as follow:
 ## What's next?
 To learn more about nodeos setup, you can explore:
 - How to setup and run a [single-host, single-node testnet with consensus](https://developers.eos.io/manuals/eos/latest/nodeos/usage/development-environment/local-single-node-testnet-consensus).
-- How to setup and run a [single-host, multi-node testnet](https://developers.eos.io/manuals/eos/latest/nodeos/usage/development-environment/local-multi-node-testnet).
+- How to set up and run a [single-host, multi-node testnet](https://developers.eos.io/manuals/eos/latest/nodeos/usage/development-environment/local-multi-node-testnet).
