@@ -5,16 +5,16 @@
 Complete the instructions described in this lab.
 
 The student must send (--> where?):
-1. A `zip file` containing the final folder after completing this tutorial and just removing the `data` folder.
+1. A `zip file` containing the current directory? after completing this tutorial and just removing the `data` folder.
 1. A screenshot of the terminal with nodeos running after the lab is completed.
 
 ### Help material
 
-Most of the resource here shown are taken from the `EOSIO Private Network Installation` tutorial, to follow the complete example, please refer to [this link](https://guide.eoscostarica.io/docs/tutorials/private-network-installation/#block-producer-nodes-configuration-and-execution).
+Most of the resources shown here are taken from the `EOSIO Private Network Installation` tutorial. To follow the complete example, please refer to [this link](https://guide.eoscostarica.io/docs/tutorials/private-network-installation/#block-producer-nodes-configuration-and-execution).
 
 ## Goal
 
-Launch an EOSIO Network locally with the needed nodeos plugins and install the system contracts that teach new rules to the network about how to behave.
+Launch an EOSIO Network locally with the required plugins and install the system contracts that stablish new rules to the network.
 
 ## Software Requirements
 
@@ -24,7 +24,7 @@ At the time of configuring a private EOSIO network there are some software insta
 1. cmake
 1. build-essential
 
-> Also, we are using Ubuntu 18.04 LTS, but if you want to use macOS or other supported OS, take a look at [EOSIO releases](https://github.com/EOSIO/eos/releases) but we recommend using Ubuntu for this workshop. If you don't have Ubuntu, Docker can help to virtualize the OS, take a look at [eos-local](https://github.com/eoscostarica/eos-local/blob/master/Dockerfile) to know how to do it.
+> In addition, we are using Ubuntu 18.04 LTS, but if you want to use macOS or other supported OS, take a look at [EOSIO releases](https://github.com/EOSIO/eos/releases) but we recommend using Ubuntu for this workshop. If you don't have Ubuntu, Docker can help to virtualize the OS, take a look at [eos-local](https://github.com/eoscostarica/eos-local/blob/master/Dockerfile) to learn how to do it.
 
 ### EOSIO Precompiled Binaries Installation
 Execute the following commands to install EOSIO precompiled binaries:
@@ -32,6 +32,7 @@ Execute the following commands to install EOSIO precompiled binaries:
 $ wget https://github.com/eosio/eos/releases/download/v2.0.9/eosio_2.0.9-1-ubuntu-18.04_amd64.deb
 $ sudo apt install ./eosio_2.0.9-1-ubuntu-18.04_amd64.deb
 ```
+---> Rewrite this phrase I dont understand.
 Once you installed EOSIO binaries; nodeos, a blockchain configuration from scratch and P2P networks interactions are among available functionalities that the protocol provides.
 
 > To uninstall EOSIO execute: `$ sudo apt remove eosio`
