@@ -44,9 +44,9 @@ The default path for the nodeos configuration files are:
 
 The build seeds this folder with a default `config.ini` file. A configuration folder can be specified using the `--config-dir` command line argument to `nodeos`. If you use this option, you will need to manually copy a `config.ini` file to your custom config folder path.
 
-`nodeos` will need a properly configured `config.ini` file in order to do meaningful work. On startup, `nodeos` looks in the config folder for `config.ini`. If one is not found, a default `config.ini` file is created.
+`nodeos` will need a properly configured `config.ini` file in order to do meaningful work. On startup, `nodeos` looks in the config folder for `config.ini`. If none is found, a default `config.ini` file is created.
 
-If you do not already have a `config.ini` file ready to use, run `nodeos` and then close it immediately with <kbd>Ctrl-C</kbd>. A default configuration (`config.ini`) will have been created in the config folder. Edit the `config.ini` file, adding/updating the following settings to the defaults already in place:
+--> Is this repeated? If you do not already have a `config.ini` file ready to use, run `nodeos` and then close it immediately with <kbd>Ctrl-C</kbd>. A default configuration (`config.ini`) will have been created in the config folder. Edit the `config.ini` file, adding/updating the following settings to the defaults already in place:
 
 ```console
 # config.ini:
@@ -59,13 +59,13 @@ producer-name = eosio
 plugin = eosio::producer_plugin
 ```
 
-Now it should be possible to run `nodeos` and see it begin producing blocks.
+Now it should be possible to run `nodeos` that will start producing blocks.
 
 ```sh
 nodeos
 ```
 
-`nodeos` stores runtime data (e.g., shared memory and log content) in a custom data folder. The location of this folder is determined by your system.
+`nodeos` stores runtime data (e.g., shared memory and log content) in a custom data folder. The location of this folder is determined by your system:
 
 * Mac OS: `~/Library/Application\ Support/eosio/nodeos/data`
 * Linux: `~/.local/share/eosio/nodeos/data`
@@ -74,7 +74,9 @@ A data folder can be specified using the `--data-dir` command line argument to `
 
 ### 2. Get Node Info
 
-To check if the node is running there is two main approaches, the first option is to get the information from terminal with `cleos get info` and the second option is to query `http://127.0.0.1:8888/v1/chain/get_info` from the browser, both of them require the action of a specific plugin.
+To check if the node is running there are two main approaches, the first option is to get the information from the terminal with `cleos get info` and the second option is to query `http://127.0.0.1:8888/v1/chain/get_info` from the browser, both of them require the action of a specific plugin.
+
+--> Well you also can see the log messages in the execution terminal...
 
 The output information is as follow:
 
