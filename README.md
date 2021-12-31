@@ -1,5 +1,5 @@
 # Sample Nodeos Configurations
-Example configuration for different EOSIO node types
+Example configurations for different EOSIO node types
 
 ## File Structure
 

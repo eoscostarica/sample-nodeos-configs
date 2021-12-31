@@ -2,6 +2,7 @@
 
 ## Workshop instructions
 
+--> I think this should be after "Goal". Puting this at the very begining is confusing and out of the blue.
 Complete [step two](https://github.com/eoscostarica/sample-nodeos-configs/blob/main/producer-node-lab.md#2-get-node-info) by finding the missing plugin to configure nodeos using the config.ini file and also the console inline configuration.
 
 The student must send ---> (where, to whom?):
@@ -20,9 +21,9 @@ This laboratory aims to set up a single-node blockchain configuration running on
 
 ![Single host single node testnet](https://developers.eos.io/315123127612b3c9153341b9e7401d02/single-host-single-node-testnet.png)
 
-## Before you begin
+## Prerequisite
 
-[Install the EOSIO software](https://developers.eos.io/manuals/eos/latest/install/index) before starting this section. It is assumed that `nodeos`, `cleos`, and `keosd` are accessible through the path.
+[Install the EOSIO software](https://developers.eos.io/manuals/eos/latest/install/index). It is assumed that `nodeos`, `cleos`, and `keosd` are accessible through the execution PATH.
 
 ## Workshop
 
