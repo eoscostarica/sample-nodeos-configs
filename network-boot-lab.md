@@ -4,8 +4,8 @@
 
 Complete the instructions described in this lab.
 
-The student must send (--> where?):
-1. A `zip file` containing the current directory? after completing this tutorial and just removing the `data` folder.
+The student must send:
+1. A `zip file` containing the resulting folder after completing this tutorial and just removing the `data` folder.
 1. A screenshot of the terminal with nodeos running after the lab is completed.
 
 ### Help material
@@ -32,8 +32,6 @@ Execute the following commands to install EOSIO precompiled binaries:
 $ wget https://github.com/eosio/eos/releases/download/v2.0.9/eosio_2.0.9-1-ubuntu-18.04_amd64.deb
 $ sudo apt install ./eosio_2.0.9-1-ubuntu-18.04_amd64.deb
 ```
----> Rewrite this phrase I dont understand.
-Once you installed EOSIO binaries; nodeos, a blockchain configuration from scratch and P2P networks interactions are among available functionalities that the protocol provides.
 
 > To uninstall EOSIO execute: `$ sudo apt remove eosio`
 
@@ -112,7 +110,7 @@ Modify `EOS_PUB_DEV_KEY` with the public key created in the [Key Management]() s
 > This can be changed later on using the privileged `set_param` function. Read more [here](https://guide.eoscostarica.io/docs/eos-learn/important-functions#set_params).
 
 ## Start the nodeos Service
-Before starting the nodeos service, it is necessary to create the file `genesis_start.sh`. For this, execute the following commands: --> a bit repetitive
+Before starting the nodeos service, it is necessary to create the file `genesis_start.sh`. Run the following commands:
 
 1. Create the file
     ```bash

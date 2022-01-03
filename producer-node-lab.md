@@ -5,7 +5,7 @@
 --> I think this should be after "Goal". Puting this at the very begining is confusing and out of the blue.
 Complete [step two](https://github.com/eoscostarica/sample-nodeos-configs/blob/main/producer-node-lab.md#2-get-node-info) by finding the missing plugin to configure nodeos using the config.ini file and also the console inline configuration.
 
-The student must send ---> (where, to whom?):
+The student must send:
 1. The config.ini file used to run nodeos.
 2. The command used to run nodeos from the terminal with the needed plugins (`.txt` file extension).
 
@@ -75,8 +75,6 @@ A data folder can be specified using the `--data-dir` command line argument to `
 ### 2. Get Node Info
 
 To check if the node is running there are two main approaches, the first option is to get the information from the terminal with `cleos get info` and the second option is to query `http://127.0.0.1:8888/v1/chain/get_info` from the browser, both of them require the action of a specific plugin.
-
---> Well you also can see the log messages in the execution terminal...
 
 The output information is as follow:
 
