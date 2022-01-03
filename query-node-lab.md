@@ -19,12 +19,9 @@ Based on tag: v2.1.0
 
 ```
 
-- In case you use a different data-dir folders -> edit all paths in files cleos.sh, start.sh, stop.sh, config.ini, Wallet/start_wallet.sh, Wallet/stop_wallet.sh
+- In case you use a different data-dir folders, please make sure you edit all paths in files cleos.sh, start.sh, stop.sh, config.ini, Wallet/start_wallet.sh, Wallet/stop_wallet.sh
 
-- Choose your producer name (12 symbols length only,  a-z 1-5 allowed only) and create your own EOS key pair
-  you can create the key pair using cleos command
-  `./cleos.sh create key`
-   or using Scatter or <a target="_blank" href="https://nadejde.github.io/eos-token-sale/">here</a>.
+- Choose your producer name (12 symbols length only,  a-z 1-5 allowed only) and create your own EOS key pair. You can create the key pair using cleos command `./cleos.sh create key`, using Scatter or <a target="_blank" href="https://nadejde.github.io/eos-token-sale/">here</a>.
 
 
 - If non BP node: use the same config, just comment out rows with producer-name and signature-provider

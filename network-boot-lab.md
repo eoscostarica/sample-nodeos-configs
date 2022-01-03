@@ -1,5 +1,8 @@
 # Launch EOSIO network
 
+## Goal
+
+Launch an EOSIO Network locally with the required plugins and install the system contracts that stablish new rules to the network.
 ## Workshop instructions
 
 Complete the instructions described in this lab.
@@ -11,10 +14,6 @@ The student must send:
 ### Help material
 
 Most of the resources shown here are taken from the `EOSIO Private Network Installation` tutorial. To follow the complete example, please refer to [this link](https://guide.eoscostarica.io/docs/tutorials/private-network-installation/#block-producer-nodes-configuration-and-execution).
-
-## Goal
-
-Launch an EOSIO Network locally with the required plugins and install the system contracts that stablish new rules to the network.
 
 ## Software Requirements
 
