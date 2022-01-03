@@ -5,6 +5,7 @@
 This laboratory aims to set up a single-node blockchain configuration running on a single host. This is referred to as a _**single host, single-node testnet**_. We will set up one node on your local computer to have it producing blocks. The following diagram depicts the desired single host testnet.
 
 ![Single host single node testnet](https://developers.eos.io/315123127612b3c9153341b9e7401d02/single-host-single-node-testnet.png)
+
 ## Workshop instructions
 
 Complete [step two](https://github.com/eoscostarica/sample-nodeos-configs/blob/main/producer-node-lab.md#2-get-node-info) by finding the missing plugin to configure nodeos using the config.ini file and also the console inline configuration.
