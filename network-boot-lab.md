@@ -1,20 +1,19 @@
 # Launch EOSIO network
 
+## Goal
+
+Launch an EOSIO Network locally with the required plugins and install the system contracts that stablish new rules to the network.
 ## Workshop instructions
 
 Complete the instructions described in this lab.
 
 The student must send:
-1. A `zip file` containing the final folder after completing this tutorial and just removing the `data` folder.
+1. A `zip file` containing the resulting folder after completing this tutorial and just removing the `data` folder.
 1. A screenshot of the terminal with nodeos running after the lab is completed.
 
 ### Help material
 
-Most of the resource here shown are taken from the `EOSIO Private Network Installation` tutorial, to follow the complete example, please refer to [this link](https://guide.eoscostarica.io/docs/tutorials/private-network-installation/#block-producer-nodes-configuration-and-execution).
-
-## Goal
-
-Launch an EOSIO Network locally with the needed nodeos plugins and install the system contracts that teach new rules to the network about how to behave.
+Most of the resources shown here are taken from the `EOSIO Private Network Installation` tutorial. To follow the complete example, please refer to [this link](https://guide.eoscostarica.io/docs/tutorials/private-network-installation/#block-producer-nodes-configuration-and-execution).
 
 ## Software Requirements
 
@@ -24,7 +23,7 @@ At the time of configuring a private EOSIO network there are some software insta
 1. cmake
 1. build-essential
 
-> Also, we are using Ubuntu 18.04 LTS, but if you want to use macOS or other supported OS, take a look at [EOSIO releases](https://github.com/EOSIO/eos/releases) but we recommend using Ubuntu for this workshop. If you don't have Ubuntu, Docker can help to virtualize the OS, take a look at [eos-local](https://github.com/eoscostarica/eos-local/blob/master/Dockerfile) to know how to do it.
+> In addition, we are using Ubuntu 18.04 LTS, but if you want to use macOS or other supported OS, take a look at [EOSIO releases](https://github.com/EOSIO/eos/releases) but we recommend using Ubuntu for this workshop. If you don't have Ubuntu, Docker can help to virtualize the OS, take a look at [eos-local](https://github.com/eoscostarica/eos-local/blob/master/Dockerfile) to learn how to do it.
 
 ### EOSIO Precompiled Binaries Installation
 Execute the following commands to install EOSIO precompiled binaries:
@@ -32,12 +31,11 @@ Execute the following commands to install EOSIO precompiled binaries:
 $ wget https://github.com/eosio/eos/releases/download/v2.0.9/eosio_2.0.9-1-ubuntu-18.04_amd64.deb
 $ sudo apt install ./eosio_2.0.9-1-ubuntu-18.04_amd64.deb
 ```
-Once you installed EOSIO binaries; nodeos, a blockchain configuration from scratch and P2P networks interactions are among available functionalities that the protocol provides.
 
 > To uninstall EOSIO execute: `$ sudo apt remove eosio`
 
 ### EOSIO.CDT (Contract Development Toolkit) Binaries Installation
-EOSIO.CDT is a toolkit that facilitates smart contract development in EOSIO based blockchain networks. To install EOSIO.CDT v1.6.3 execute the following commands:
+EOSIO.CDT is a toolkit that facilitates smart contract development in EOSIO based blockchain networks. To install EOSIO.CDT v1.6.3, please run the following commands:
 ```bash
 $ wget https://github.com/eosio/eosio.cdt/releases/download/v1.7.0/eosio.cdt_1.7.0-1-ubuntu-18.04_amd64.deb
 $ sudo apt install ./eosio.cdt_1.7.0-1-ubuntu-18.04_amd64.deb
@@ -46,7 +44,7 @@ $ sudo apt install ./eosio.cdt_1.7.0-1-ubuntu-18.04_amd64.deb
 You may want to take a look at [EOSIO.CDT releases](https://github.com/EOSIO/eosio.cdt/releases).
 
 ## Key Management
-Before getting started with any node configuration, is necessary to create an EOSIO key to store it in the wallet, let's complete it with next steps:
+Before getting started with any node configuration, it is necessary to create an EOSIO key and store it in a wallet. Let's do it with the next steps:
 
 1. Create a wallet:
 
@@ -69,12 +67,12 @@ cleos wallet import -n wlab --private-key <PRIVATE_KEY>
 *<PRIVATE_KEY>:* Check the created private key in step 2 with `cat account.key`.
 
 ## Genesis Node Configuration
-Before configuring the genesis node, it is necessary to create a directory called `~/biosboot/genesis`, this is due to protocol particularities. So, for this execute the following:
+Before configuring the genesis node, it is necessary to create a directory called `~/biosboot/genesis`, by executing the following:
 ```bash
 $ mkdir ~/biosboot
 $ mkdir ~/biosboot/genesis
 ```
-Now, create a file called `genesis.json` in the `~/biosboot/` directory, so for this execute the following command to create and edit the file:
+Now, create a file called `genesis.json` in the `~/biosboot/` directory, by executing the following command to create and edit the file:
 ```bash
 $ nano ~/biosboot/genesis.json
 ```
@@ -111,7 +109,7 @@ Modify `EOS_PUB_DEV_KEY` with the public key created in the [Key Management]() s
 > This can be changed later on using the privileged `set_param` function. Read more [here](https://guide.eoscostarica.io/docs/eos-learn/important-functions#set_params).
 
 ## Start the nodeos Service
-Before starting the nodeos service, it is necessary to create the file `genesis_start.sh`. For this, execute the following commands:
+Before starting the nodeos service, it is necessary to create the file `genesis_start.sh`. Run the following commands:
 
 1. Create the file
     ```bash
@@ -160,7 +158,7 @@ Before starting the nodeos service, it is necessary to create the file `genesis_
     $ chmod 755 genesis_start.sh
     $ ./genesis_start.sh
     ```
-Once the previous command were executed, the genesis node that will bring **eosio** as a name will be able to:
+Once the previous commands are executed, the genesis node with **eosio** as its name will be able to:
 1. Produce blocks
 1. Listen HTTP requests at `SPECIFIED_GENESIS_NODE_IP:8888`
 1. Listen connection requests with other nodes at `SPECIFIED_GENESIS_NODE_IP:9010`
