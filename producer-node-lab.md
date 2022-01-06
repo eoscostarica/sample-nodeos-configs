@@ -8,11 +8,11 @@ This laboratory aims to set up a single-node blockchain configuration running on
 
 ## Workshop instructions
 
-Complete [step two](https://github.com/eoscostarica/sample-nodeos-configs/blob/main/producer-node-lab.md#2-get-node-info) by finding the missing plugin to configure nodeos using the config.ini file and also the console inline configuration.
+Complete [step two](https://github.com/eoscostarica/sample-nodeos-configs/blob/main/producer-node-lab.md#2-get-node-info) by finding the missing plugin to configure nodeos using the `config.ini` file and also the console inline configuration.
 
 The student must send:
-1. The config.ini file used to run nodeos.
-2. The command used to run nodeos from the terminal with the needed plugins (`.txt` file extension).
+1. The `config.ini` file used to run nodeos.
+2. The command used to run nodeos from the terminal with the needed plugins. Add the command in a `.txt` file extension.
 
 ### Help material
 
@@ -98,6 +98,7 @@ The output information is as follow:
 ```
 
 ## What's next?
+
 To learn more about nodeos setup, you can explore:
 - How to setup and run a [single-host, single-node testnet with consensus](https://developers.eos.io/manuals/eos/latest/nodeos/usage/development-environment/local-single-node-testnet-consensus).
 - How to set up and run a [single-host, multi-node testnet](https://developers.eos.io/manuals/eos/latest/nodeos/usage/development-environment/local-multi-node-testnet).
