@@ -15,11 +15,11 @@ The student must send:
 
 ### Help material
 
-To help you complete this tutorial, you can consult next material:
+To help you complete this tutorial, you can take a look at the following resource:
 - [Nodeos Replays](https://developers.eos.io/manuals/eos/v2.0/nodeos/replays/index).
 
 ## Prerequisite
-To successfully complete this laboratory, please, make sure you have next requirement:
+To successfully complete this laboratory, please, make sure you have the following requirements:
 - [Install the EOSIO software](https://developers.eos.io/manuals/eos/latest/install/index). It is assumed that `nodeos`, `cleos`, and `keosd` are accessible through the execution PATH.
 - [Complete the producer node lab](https://github.com/eoscostarica/sample-nodeos-configs/blob/main/producer-node-lab.md).
 
@@ -40,7 +40,7 @@ plugin = eosio::producer_api_plugin
 ```
 
 ### 2. Generate a Snapshot
-To restore a dawn node or start a new one from a snapshot, firstly it is needed to have created the snapshot file. To do so, run:
+To restore a stoped node or start a new one, first you need a snapshot. To do so, run:
 
 1. Open your terminal.
 2. Paste next command `curl -X POST http://127.0.0.1:8888/v1/producer/create_snapshot` into the terminal.
@@ -58,13 +58,13 @@ For this laboratory, we are going to replay from an empty folder, follow next st
 mkdir ~/recovery-lab
 ```
 
-2. Copy the snapshot you created in [step two](https://github.com/eoscostarica/sample-nodeos-configs/blob/main/recovery-lab.md#2-generate-a-snapshot) to the working folder.
+2. Copy the snapshot you created in [step two](https://github.com/eoscostarica/sample-nodeos-configs/blob/main/recovery-lab.md#2-generate-a-snapshot) to the working directory.
 
 ```sh
 cp <SNAPSHOT_NAME>.bin ~/recovery-lab
 ```
 
-3. Create next variables in your terminal:
+3. Create the following variables in your terminal:
 
 ```sh
 SNAPSHOT=latest.bin
@@ -72,7 +72,7 @@ CONFIG_DIR=./config
 DATA_DIR=./blockchain
 ```
 
-4. Rename the snapshot file for a better comprehension:
+4. Rename the snapshot file for simplicity:
 
 ```sh
 cd ~/recovery-lab
@@ -88,7 +88,7 @@ cd ~/recovery-lab
 mkdir -p $DATA_DIR/snapshots
 ```
 
-6. Copy the snapshot file located in your working folder to the snapshots folder.
+6. Copy the snapshot file located in your working directory to the snapshots directory.
 
 ```sh
 cd ~/recovery-lab
