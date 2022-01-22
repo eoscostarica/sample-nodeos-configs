@@ -1,5 +1,18 @@
+<p align="center">
+   <img src="./eosio-logo.jpeg">
+</p>
+
 # Sample Nodeos Configurations
-Example configurations for different EOSIO node types
+**Example configurations for different EOSIO node types**
+
+![](https://img.shields.io/github/license/eoscostarica/sample-nodeos-configs) ![](https://img.shields.io/badge/code%20style-standard-brightgreen.svg) ![](https://img.shields.io/badge/%E2%9C%93-collaborative_etiquette-brightgreen.svg) ![](https://img.shields.io/twitter/follow/eoscostarica.svg?style=social&logo=twitter) ![](https://img.shields.io/github/forks/eoscostarica/sample-nodeos-configs?style=social)
+
+
+## Project Description
+
+This repository contains a collection of nodeos configuration files and other helpful resources meant to assist students of the [EOSIO Node Operator](https://training.eos.io/courses/eosio-node-operator) and [EOSIO Blockchain Administrator](https://training.eos.io/courses/eosio-blockchain-administrator) courses learn from first hand experience.
+
+There are also four student lab assignments included in this repository that must be completed by students to obtain the course certification.
 
 ## File Structure
 
@@ -36,19 +49,38 @@ Within the repo you'll find the following files and directories:
 └── recovery-lab.md ...................... Node recovery lab assignment
 ```
 
-# Node Operator Labs 
+# Node Operator Course Labs 
 
-## [Producer Node Lab Assignment](https://github.com/eoscostarica/sample-nodeos-configs/blob/main/producer-node-lab.md)
+## [Producer Node - Lab Assignment](https://github.com/eoscostarica/sample-nodeos-configs/blob/main/producer-node-lab.md)
 Configure a local block producer node
 
-## [Query Node Lab Assignment](https://github.com/eoscostarica/sample-nodeos-configs/blob/main/query-node-lab.md)
+## [Query Node - Lab Assignment](https://github.com/eoscostarica/sample-nodeos-configs/blob/main/query-node-lab.md)
 Configure an API node on a public testnet
 
-## [Recovery Lab Assignment](https://github.com/eoscostarica/sample-nodeos-configs/blob/main/recovery-lab.md)
+## [Recovery - Lab Assignment](https://github.com/eoscostarica/sample-nodeos-configs/blob/main/recovery-lab.md)
 Chain Replays and Backup Recovery 
 
-# Blockchain Admin Labs
+# Blockchain Admin Course Labs
 
 ## [EOSIO Network Boot Sequence](https://github.com/eoscostarica/sample-nodeos-configs/blob/main/network-boot-lab.md)
 
 Follow the steps to Launch your own EOSIO network using the [EOSIO network bootstrap](https://github.com/eoscostarica/eosio-network-bootstrap) tool.
+
+# Contributing
+
+Please read EOS Costa Rica's [Open Source Contributing Guidelines](https://developers.eoscostarica.io/docs/open-source-guidelines).
+
+Please report bugs big and small by [opening an issue](https://github.com/eoscostarica/sample-nodeos-configs/issues/new/choose)
+
+## About EOS Costa Rica
+
+<p align="center">
+	<a href="https://eoscostarica.io">
+		<img src="https://github.com/eoscostarica/eos-rate/raw/master/docs/eoscostarica-logo-black.png" width="300">
+	</a>
+</p>
+<br/>
+
+EOS Costa Rica is an independently-owned, self-funded, bare-metal Genesis block producer that provides stable and secure infrastructure for EOSIO blockchains. We support open source software for our community while offering enterprise solutions and custom smart contract development for our clients.
+
+[eoscostarica.io](https://eoscostarica.io)
