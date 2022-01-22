@@ -1,12 +1,11 @@
 <p align="center">
-   <img src="./eosio-logo.jpeg">
+   <img src="./eosio-logo.jpeg" width="450">
 </p>
 
 # Sample Nodeos Configurations
-**Example configurations for different EOSIO node types**
+**Example configuration files and scripts for operating different EOSIO node types**
 
 ![](https://img.shields.io/github/license/eoscostarica/sample-nodeos-configs) ![](https://img.shields.io/badge/code%20style-standard-brightgreen.svg) ![](https://img.shields.io/badge/%E2%9C%93-collaborative_etiquette-brightgreen.svg) ![](https://img.shields.io/twitter/follow/eoscostarica.svg?style=social&logo=twitter) ![](https://img.shields.io/github/forks/eoscostarica/sample-nodeos-configs?style=social)
-
 
 ## Project Description
 
@@ -64,7 +63,7 @@ Chain Replays and Backup Recovery
 
 ## [EOSIO Network Boot Sequence](https://github.com/eoscostarica/sample-nodeos-configs/blob/main/network-boot-lab.md)
 
-Follow the steps to Launch your own EOSIO network using the [EOSIO network bootstrap](https://github.com/eoscostarica/eosio-network-bootstrap) tool.
+Follow the steps to [Launch your own EOSIO network](https://guide.eoscostarica.io/docs/tutorials/private-network-installation) using the [EOSIO network bootstrap](https://github.com/eoscostarica/eosio-network-bootstrap) tool.
 
 # Contributing
 
