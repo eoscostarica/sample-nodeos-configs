@@ -4,11 +4,13 @@
 
 Set up a node on the jungle testnet
 
-## Workshop instructions
+## Workshop deliverables
 
 The student must send:
 1. The chosen producer name.
 2. The Nodeos generated log files.
+
+## Workshop intructions
 
 To start a Jungle 3 node you need to install the EOSIO software. You can compile from sources or install from precompiled binaries:
 
